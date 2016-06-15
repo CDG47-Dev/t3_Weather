@@ -13,6 +13,7 @@ Quick Install Guide
 ===================
 
 Une variable typoscript doit être déclaré avec le WOIED de la ville
+Pour récupérer le WOIED : http://woeid.rosselliot.co.nz/
 
 Usage
 ===================
