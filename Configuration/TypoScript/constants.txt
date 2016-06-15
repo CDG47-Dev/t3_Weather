@@ -1,0 +1,3 @@
+param{
+	jsWeather = EXT:t3_weather/Resources/Public/Js/weather.js
+}
