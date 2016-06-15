@@ -1,0 +1,16 @@
+tt_content.cce_teaser = COA
+tt_content.cce_teaser {
+    10 = FLUIDTEMPLATE
+    10 {
+        file = EXT:t3_weather/Resources/Private/Templates/Teaser.html
+        partialRootPath = EXT:t3_weather/Resources/Private/Partials
+        layoutRootPath = EXT:t3_weather/Resources/Private/Layouts
+    }
+}
+page = PAGE
+page{
+	includeJSFooterlibs {
+     weather = EXT:t3_weather/Resources/Public/Js/jquery.simpleWeather.min.js
+	 weather2 = {$param.jsWeather}
+    }
+}
