@@ -7,15 +7,15 @@ if (!defined('TYPO3_MODE')) {
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile($_EXTKEY, 'Configuration/TypoScript', 'weather');
 
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig('
-	mod.wizards.newContentElement.wizardItems.common.elements {
+	mod.wizards.newContentElement.wizardItems.plugins.elements {
 		cce_teaser {
 			icon = gfx/c_wiz/regular_text.gif
-			title = Teaser
-			description = Teaser (Custom Content Elements)
+			title = Météo
+			description = Plugin météo simpliste qui affiche les températures et le temps
 			tt_content_defValues.CType = cce_teaser
 		}
 	}
-	mod.wizards.newContentElement.wizardItems.common.show := addToList(cce_teaser)
+	show = addToList(cce_teaser)
 ');
 
 $TCA['tt_content']['columns']['CType']['config']['items'][] =
