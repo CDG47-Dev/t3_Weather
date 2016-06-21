@@ -1,3 +1,4 @@
 param{
+	value = 621876
 	jsWeather = EXT:t3_weather/Resources/Public/Js/weather.js
 }

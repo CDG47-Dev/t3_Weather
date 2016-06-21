@@ -2,7 +2,7 @@ tt_content.cce_teaser = COA
 tt_content.cce_teaser {
     10 = FLUIDTEMPLATE
     10 {
-        file = EXT:t3_weather/Resources/Private/Templates/Teaser.html
+        file = EXT:t3_weather/Resources/Private/Templates/Weather.html
         partialRootPath = EXT:t3_weather/Resources/Private/Partials
         layoutRootPath = EXT:t3_weather/Resources/Private/Layouts
     }
