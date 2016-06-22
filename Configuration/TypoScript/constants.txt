@@ -1,4 +1,11 @@
-param{
-	value = 621876
-	jsWeather = EXT:t3_weather/Resources/Public/Js/weather.js
+############
+### PAGE ###
+############
+page {
+   weather{
+        # Woied par défaut
+        woeid = 621876
+        # Script Météo
+        jsWeather = EXT:t3_weather/Resources/Public/Js/weather.js
+   }
 }
