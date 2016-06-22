@@ -7,11 +7,11 @@ page {
         woeid = 621876
         # Script Météo
         jsWeather = EXT:t3_weather/Resources/Public/Js/weather.js
-        #File Root Path: Path to file template
-        file = EXT:t3_weather/Resources/Private/Templates/Weather.html
-        #Partial Root Path: Path to partials
-        partialRootPaths = EXT:t3_weather/Resources/Private/Partials
         #Template Root Path: Path to templates
-        layoutRootPath = EXT:t3_weather/Resources/Private/Layouts
+        templateRootPath = EXT:t3_weather/Resources/Private/Templates/
+        #Partial Root Path: Path to partials
+        partialRootPath = EXT:t3_weather/Resources/Private/Partials/
+        #Template Root Path: Path to templates
+        layoutRootPath = EXT:t3_weather/Resources/Private/Layouts/
    }
 }
