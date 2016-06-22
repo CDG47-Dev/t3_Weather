@@ -12,6 +12,6 @@ page {
         #Partial Root Path: Path to partials
         partialRootPaths = EXT:t3_weather/Resources/Private/Partials
         #Template Root Path: Path to templates
-        templateRootPath = EXT:t3_weather/Resources/Private/Layouts
+        layoutRootPath = EXT:t3_weather/Resources/Private/Layouts
    }
 }
