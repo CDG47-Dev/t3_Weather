@@ -4,7 +4,7 @@ tt_content.cdg_weather {
     10 {
         file {
             0 = EXT:t3_weather/Resources/Private/Templates/Weather.html
-            1 = {$page.weather.templateRootPath}
+            1 = {$page.weather.file}
         }
         partialRootPaths {
             0 = EXT:t3_weather/Resources/Private/Partials
