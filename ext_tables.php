@@ -34,10 +34,6 @@ $TCA['tt_content']['columns']['CType']['config']['items'][] =
 $TCA['tt_content']['types']['cdg_weather']['showitem'] = '
     --palette--;LLL:EXT:cms/locallang_ttc.xml:palette.general;general,
     --palette--;LLL:EXT:cms/locallang_ttc.xml:palette.header;header,
-    --div--;Text,
-    bodytext;Text;;richtext:rte_transform[flag=rte_enabled|mode=ts_css], rte_enabled;LLL:EXT:cms/locallang_ttc.xml:rte_enabled_formlabel,
-    --div--;Bilder,
-    image,
     --div--;LLL:EXT:cms/locallang_ttc.xml:tabs.access,
     --palette--;LLL:EXT:cms/locallang_ttc.xml:palette.visibility;visibility,
     --palette--;LLL:EXT:cms/locallang_ttc.xml:palette.access;access,
