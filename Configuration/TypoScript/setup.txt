@@ -17,7 +17,7 @@ page{
         #Paramètres
         settings {
             weather {
-                woied = {$page.weather.woied}
+                woeid = {$page.weather.woeid}
             }
         }
 }
