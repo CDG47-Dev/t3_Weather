@@ -8,14 +8,14 @@ if (!defined('TYPO3_MODE')) {
 
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig('
 	mod.wizards.newContentElement.wizardItems.plugins.elements {
-		cce_teaser {
+		cdg_weather {
 			icon = gfx/c_wiz/regular_text.gif
 			title = Météo
 			description = Plugin météo simpliste qui affiche les températures et le temps
-			tt_content_defValues.CType = cce_teaser
+			tt_content_defValues.CType = cdg_weather
 		}
 	}
-	show = addToList(cce_teaser)
+	show = addToList(cdg_weather)
 ');
 
 $TCA['tt_content']['columns']['CType']['config']['items'][] =
@@ -26,12 +26,12 @@ $TCA['tt_content']['columns']['CType']['config']['items'][] =
 
 $TCA['tt_content']['columns']['CType']['config']['items'][] =
     array(
-        'Teaser (Custom Content Elements)',
-        'cce_teaser',
+        'Météo',
+        'cdg_weather',
         \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extRelPath($_EXTKEY) . 'ext_icon.gif'
     );
 
-$TCA['tt_content']['types']['cce_teaser']['showitem'] = '
+$TCA['tt_content']['types']['cdg_weather']['showitem'] = '
     --palette--;LLL:EXT:cms/locallang_ttc.xml:palette.general;general,
     --palette--;LLL:EXT:cms/locallang_ttc.xml:palette.header;header,
     --div--;Text,
