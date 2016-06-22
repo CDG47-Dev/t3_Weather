@@ -9,9 +9,16 @@ tt_content.cce_teaser {
 }
 page = PAGE
 page{
+	#Inclusion des librairies Javascript
 	includeJSFooterlibs {
-     weather = EXT:t3_weather/Resources/Public/Js/jquery.simpleWeather.min.js
-	 weather2 = {$param.jsWeather}
-    }
+                  weather = EXT:t3_weather/Resources/Public/Js/jquery.simpleWeather.min.js
+	          weather2 = {$page.weather.jsWeather}
+         }
+        #Paramètres
+        settings {
+            weather {
+                woied = {$page.weather.woied}
+            }
+        }
 }
 
