@@ -8,11 +8,11 @@ tt_content.cdg_weather {
         }
         partialRootPaths {
             0 = EXT:t3_weather/Resources/Private/Partials
-            1 = {$page.weather.partialRootPaths}
+            1 = {$page.weather.partialRootPath}
         }
         layoutRootPaths {
             0 = EXT:t3_weather/Resources/Private/Layouts
-            1 = {$page.weather.layoutRootPaths}
+            1 = {$page.weather.layoutRootPath}
         }        
         #Paramètres
         settings {
