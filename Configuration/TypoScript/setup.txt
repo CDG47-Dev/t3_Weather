@@ -2,9 +2,18 @@ tt_content.cdg_weather = COA
 tt_content.cdg_weather {
     10 = FLUIDTEMPLATE
     10 {
-        file = EXT:t3_weather/Resources/Private/Templates/Weather.html
-        partialRootPath = EXT:t3_weather/Resources/Private/Partials
-        layoutRootPath = EXT:t3_weather/Resources/Private/Layouts
+        file {
+            0 = EXT:t3_weather/Resources/Private/Templates/Weather.html
+            1 = {$page.weather.templateRootPath}
+        }
+        partialRootPaths {
+            0 = EXT:t3_weather/Resources/Private/Partials
+            1 = {$page.weather.partialRootPaths}
+        }
+        layoutRootPaths {
+            0 = EXT:t3_weather/Resources/Private/Layouts
+            1 = {$page.weather.layoutRootPaths}
+        }        
         #Paramètres
         settings {
             weather {
