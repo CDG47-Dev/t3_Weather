@@ -1,5 +1,5 @@
-tt_content.cce_teaser = COA
-tt_content.cce_teaser {
+tt_content.cdg_weather = COA
+tt_content.cdg_weather {
     10 = FLUIDTEMPLATE
     10 {
         file = EXT:t3_weather/Resources/Private/Templates/Weather.html
