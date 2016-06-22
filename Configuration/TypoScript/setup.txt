@@ -5,6 +5,12 @@ tt_content.cdg_weather {
         file = EXT:t3_weather/Resources/Private/Templates/Weather.html
         partialRootPath = EXT:t3_weather/Resources/Private/Partials
         layoutRootPath = EXT:t3_weather/Resources/Private/Layouts
+        #Paramètres
+        settings {
+            weather {
+                woeid = {$page.weather.woeid}
+            }
+        }        
     }
 }
 page = PAGE
@@ -14,11 +20,5 @@ page{
                   weather = EXT:t3_weather/Resources/Public/Js/jquery.simpleWeather.min.js
 	          weather2 = {$page.weather.jsWeather}
          }
-        #Paramètres
-        settings {
-            weather {
-                woeid = {$page.weather.woeid}
-            }
-        }
 }
 
