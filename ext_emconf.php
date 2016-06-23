@@ -15,6 +15,7 @@ $EM_CONF[$_EXTKEY] = array(
     'category' => 'fe',
     'constraints' => array(
         'depends' => array(
+            'typo3' => '7.6.2 - 8.99.99'
 
         ),
         'conflicts' => array(),
