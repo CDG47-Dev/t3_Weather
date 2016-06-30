@@ -30,3 +30,6 @@ Pour utiliser un nouveau template de mise en forme de la météo, il est possibl
 ```
 page.weather.jsWeather = fileadmin/Collectivites/Serignac/Resources/Public/Js/weather.js
 ```
+Examples
+===================
+[Exemples d'affichage](https://github.com/CDG47-Dev/t3_Weather/tree/master/Examples)
