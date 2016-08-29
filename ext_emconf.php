@@ -15,12 +15,7 @@ $EM_CONF[$_EXTKEY] = array(
     'category' => 'fe',
     'constraints' => array(
         'depends' => array(
-<<<<<<< HEAD
-			'typo3' => '7.6.2 - 8.99.99'
-=======
-            'typo3' => '7.6.2 - 8.99.99'
-
->>>>>>> 3b9109ac0737efe3176fb8f11d726f473b168129
+		'typo3' => '7.6.2 - 8.99.99'
         ),
         'conflicts' => array(),
     ),
