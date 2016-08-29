@@ -79,8 +79,8 @@ $(document).ready(function() {
       for (var i = 1; i < 1; i++) { //weather.forecast.length
         html += '<div class="row weatherForecast"><div class="col-xs-3 col-sm-3">' + jour[weather.forecast[i].day]+ ':</div><div class="col-xs-3 col-sm-1"><i class="icon-' + weather.forecast[i].code +'"></i></div><div class="col-xs-3 hidden-md hidden-lg">' + codes[weather.forecast[i].code] + '</div><div class="col-xs-3 col-sm-3">' + weather.forecast[i].low+ '&deg;' + weather.units.temp + '-' + weather.forecast[i].high + '&deg;' + weather.units.temp + '</div></div>';
       }
-      html += '<a href="'+weather.link+'" target="_blank" alt="Météo de '+weather.city+' sur Yahoo Weather">Plus de météo pour '+weather.city+'</a>';
-      $("#weather").html(html);
+      html += '<a href="https://fr.news.yahoo.com/meteo/'+weather.country+'/'+weather.city+'/'+weather.city+'-'+woeidValue+'" target="_blank" alt="Météo de '+weather.city+' sur Yahoo Weather">Voir sur Yahoo Weather</a>';
+$("#weather").html(html);
     },
     error: function(error) {
       $("#weather").html('<p>' + error + '</p>');
