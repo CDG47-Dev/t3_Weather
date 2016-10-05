@@ -3,15 +3,15 @@
 ############
 page {
    weather{
-        # Woied par défaut
+        # cat=t3 weather: basic/150/010; type=int; label= Woied: Woied de la commune - http://woeid.rosselliot.co.nz/
         woeid = 621876
-        # Script Météo
+        # cat=t3 weather: basic/150/020; type=string; label= Script Météo: Chemin du fichier javascript
         jsWeather = EXT:t3_weather/Resources/Public/Js/weather.js
-        #Template Root Path: Path to templates
+        # cat=t3 weather: basic/150/030; type=string; label= Template Root Path: Path to templates
         templateRootPath = EXT:t3_weather/Resources/Private/Templates/
-        #Partial Root Path: Path to partials
+        # cat=t3 weather: basic/150/040; type=string; label= Partial Root Path: Path to partials
         partialRootPath = EXT:t3_weather/Resources/Private/Partials/
-        #Template Root Path: Path to templates
+        # cat=t3 weather: basic/150/050; type=string; label= Template Root Path: Path to templates
         layoutRootPath = EXT:t3_weather/Resources/Private/Layouts/
    }
 }
